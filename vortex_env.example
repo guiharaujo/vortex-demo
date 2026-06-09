@@ -1,0 +1,15 @@
+# =============================================================================
+# VÓRTEX — Environment Variables
+# =============================================================================
+# Copy this file to .env and fill in your actual values.
+# NEVER commit the .env file to version control.
+# =============================================================================
+
+# ERP / SAP B1 connection (via pyodbc)
+ERP_DB_SERVER=your-erp-server,1433
+ERP_DB_NAME=your_erp_database
+ERP_DB_USER=your_db_user
+ERP_DB_PASSWORD=your_db_password
+
+# Auth secret for HMAC token signing (use a long random string)
+VORTEX_AUTH_SECRET=generate-a-long-random-secret-here
